@@ -1,0 +1,23 @@
+.news-card{
+    border-radius: 0;
+    box-shadow: none;
+    transition: all 0.2s ease-in;
+    border: 1px solid black;
+}
+.news-card:hover{
+    box-shadow: 5px 5px black;
+}
+.news-card>div>div>a{
+    border-radius: 0;
+    background: black;
+    color: white;
+    box-shadow: none;
+    transition: all 0.2s ease-in;
+}
+.news-card>div>div>a:hover{
+    box-shadow: 2px 2px gray;
+    background: white;
+    border: 1px solid black;
+    color: black;
+    
+}
